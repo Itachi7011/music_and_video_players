@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80rem;
+  width: 50rem;
+  margin: 100px auto;
+  text-align: center;
+  border: 5px solid black;
+  padding: 5rem;
+  background-color: #d8d1cc;
+  font-size: larger;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+h1 {
+  color: white;
+  background-color: #32494b;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 80rem;
+  font-weight: bolder;
+}
+h2 {
+  color: white;
+  background-color: #42595b;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  text-align: center;
+  max-width: 40rem;
+  margin-top: -2rem;
+}
+
+#playlist {
+  margin-top: 2rem;
+  font-size: larger;
+}
+
+.audio-item {
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+.audio-item button {
+  margin-left: 10px;
+  font-size: larger;
+}
+#fileInput {
+  font-size: larger;
+  margin-top: 2rem;
+}
+.audioPlayer {
+  font-size: larger;
+  width: 100vw;
+  margin: 0;
+}
+
+button {
+  padding: 1rem;
+  font-size: larger;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
